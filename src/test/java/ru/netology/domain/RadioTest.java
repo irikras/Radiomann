@@ -1,36 +1,11 @@
 package ru.netology.domain;
 
+import org.junit.jupiter.api.Disabled;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
-
-    @Test
-    @Disabled
-    public void shouldGetMaxChannel() {
-        Radio radio = new Radio();
-        assertEquals(9, radio.getMaxChannel());
-    }
-
-    @Test
-    @Disabled
-    public void shouldGetMinChannel() {
-        Radio radio = new Radio();
-        assertEquals(0, radio.getMinChannel());
-    }
-
-    @Test
-    @Disabled
-    public void shouldGetMaxVolume() {
-        Radio radio = new Radio();
-        assertEquals(10, radio.getMaxVolume());
-    }
-
-    @Test
-    @Disabled
-    public void shouldGetMinVolume() {
-        Radio radio = new Radio();
-        assertEquals(0, radio.getMinVolume());
-    }
 
     @Test
     public void shouldSetDesiredChannel() {
