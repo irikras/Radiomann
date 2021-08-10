@@ -73,24 +73,32 @@ public class Radio {
     public void increaseVolume() {
         if (currentVolume < maxVolume) {
             currentVolume++;
-        } else currentVolume = maxVolume;
+        } else {
+            currentVolume = maxVolume;
+        }
     }
 
     public void decreaseVolume() {
         if (currentVolume > minVolume) {
             currentVolume--;
-        } else currentVolume = minVolume;
+        } else {
+            currentVolume = minVolume;
+        }
     }
 
     public void increaseChannel() {
         if (currentChannel < maxChannel) {
             currentChannel++;
-        } else currentChannel = minChannel;
+        } else {
+            currentChannel = minChannel;
+        }
     }
 
     public void decreaseChannel() {
         if (currentChannel > minChannel) {
             currentChannel--;
-        } else currentChannel = maxChannel;
+        } else {
+            currentChannel = maxChannel;
+        }
     }
 }
